@@ -206,6 +206,7 @@ p {
     width: 50%;
     float: left;
     padding: 0px 45px;
+    text-align: center;
 }
 
 .col-8-app p {
@@ -218,3 +219,4 @@ p {
 #read-more{
     background: #f5f6fa;
 }
+
