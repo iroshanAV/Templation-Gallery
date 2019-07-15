@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**CUSTOM STYLES**/
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 50px;
+}
+
+
+.container {
+	max-width: 1100px;
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;	
+}
+
+
+#heading {
+   background-image: url(../img/st-pauls-sunset-dates-city-london-eric-hossinger-flickr-1920x849.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+
+.nav li {
+    display: inline-block;
+
+}
+
+.nav li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px; 
+    transition: border-bottom 0.1s, color 0.1s;
+    padding-bottom: 3px; 
+    border-bottom: 4px solid white transparent;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.nav li a:hover {
+    border-bottom:4px solid white; 
+    transition: border-bottom 0.1s, color 0.1s;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.good-summer {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 1000;
+}
+
+.cta-button {  
+   
+    padding: 23px 35px;
+    background-image: linear-gradient(to right, #e96443 , #904e95);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+.cta-button:hover {
+    background: #383737;
+    transition: 0.3s;
+}
+
+.download-now {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+.just {
+    margin-top:70px;
+    text-align: center;
+    color: white;
+    font-size: 30px; 
+    font-family: 'Lobster', cursive;
+
+}
+
+
+.row {
+    overflow: hidden;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.row h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight:  700;
+    margin: 30px 0;
+}
+
+
+.col-4-app {
+    width: 33.33%;
+    float: left;
+    padding: 0px 45px;
+}
+
+.col-4-app p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #646464;
+}
+
+.fa {
+    background: -webkit-gradient(linear, left top, left bottom, from( #e96443), to(#904e95));
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+   
+}
+
+#second{
+    background: #dcdde1;
+}
+
+
+p {
+    text-align: center;
+}
+
+.col-8-app {
+    width: 50%;
+    float: left;
+    padding: 0px 45px;
+}
+
+.col-8-app p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #646464;
+}
+
+
+#read-more{
+    background: #f5f6fa;
+}
