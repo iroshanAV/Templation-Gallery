@@ -75,7 +75,7 @@ table {
 
 
 #heading {
-   background-image: url(../img/st-pauls-sunset-dates-city-london-eric-hossinger-flickr-1920x849.jpg);
+   background-image: url(../img/londonbg.jpg);
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -238,3 +238,19 @@ p {
 }
 
 
+#fifth {
+    background-image: linear-gradient(to right, #e96443 , #904e95);
+    color: white;
+	
+}
+
+.trusted-by{
+    width: 25%;
+    float: left;
+    padding: 0px 45px;
+}
+
+.comp-logo {
+    width:120px;
+    height: 120px;
+}
